@@ -1,0 +1,9 @@
+kube-apiserver: Exposes the Kubernetes API. It is the front-end for the Kubernetes control plane.
+
+etcd: Consistent and highly-available key-value store used as Kubernetes' backing store for all cluster data.
+
+kube-scheduler: Watches for newly created pods with no assigned node, and selects a node for them to run on based on resource availability.
+
+kube-controller-manager: Runs controller processes to regulate the state of the cluster, such as node controller, replication controller, endpoint controller, and service account & token controllers.
+
+cloud-controller-manager: Runs controllers that interact with the underlying cloud provider's API. This component allows Kubernetes to be extended to manage resources on cloud providers.
