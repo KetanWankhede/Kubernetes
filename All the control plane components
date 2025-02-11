@@ -7,3 +7,5 @@ kube-scheduler: Watches for newly created pods with no assigned node, and select
 kube-controller-manager: Runs controller processes to regulate the state of the cluster, such as node controller, replication controller, endpoint controller, and service account & token controllers.
 
 cloud-controller-manager: Runs controllers that interact with the underlying cloud provider's API. This component allows Kubernetes to be extended to manage resources on cloud providers.
+auther: ketan
+
